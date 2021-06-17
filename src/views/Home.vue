@@ -105,6 +105,9 @@ export default defineComponent({
       )
     },
   },
+  mounted() {
+    this.$store.dispatch("getPeople")
+  },
 })
 </script>
 
